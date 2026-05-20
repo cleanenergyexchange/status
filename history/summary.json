@@ -1,0 +1,38 @@
+[
+  {
+    "name": "API",
+    "url": "https://api.prod.ceex.app/api/v1/health",
+    "icon": "https://icons.duckduckgo.com/ip3/api.prod.ceex.app.ico",
+    "slug": "api",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 807,
+    "timeDay": 807,
+    "timeWeek": 807,
+    "timeMonth": 807,
+    "timeYear": 807,
+    "dailyMinutesDown": {}
+  },
+  {
+    "name": "Dashboard",
+    "url": "https://prod.ceex.app",
+    "icon": "https://icons.duckduckgo.com/ip3/prod.ceex.app.ico",
+    "slug": "dashboard",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 472,
+    "timeDay": 472,
+    "timeWeek": 472,
+    "timeMonth": 472,
+    "timeYear": 472,
+    "dailyMinutesDown": {}
+  }
+]
