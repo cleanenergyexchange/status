@@ -1,0 +1,38 @@
+# Upptime configuration — Clean Energy Exchange status page
+# Docs: https://upptime.js.org/docs/configuration
+#
+# Only customer-facing production endpoints belong here. Every URL listed
+# below is published on the status page and in any downtime issues.
+
+owner: cleanenergyexchange
+repo: status
+
+sites:
+  - name: API
+    url: https://api.prod.ceex.app/api/v1/health
+    expectedStatusCodes:
+      - 200
+  - name: Dashboard
+    url: https://prod.ceex.app
+    expectedStatusCodes:
+      - 200
+
+status-website:
+  cname: # optional: set to a custom domain (e.g. status.ceex.app) after adding a DNS CNAME
+  name: "Clean Energy Exchange Status"
+  introTitle: "Clean Energy Exchange — Service Status"
+  introMessage: "Live availability of Clean Energy Exchange's public services. Watch this repository to be notified about incidents."
+  navbar:
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/cleanenergyexchange/status
+
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/15 * * * *" # default: */5 * * * *
