@@ -18,7 +18,7 @@ sites:
       - 200
 
 status-website:
-  cname: # optional: set to a custom domain (e.g. status.ceex.app) after adding a DNS CNAME
+  cname: status.ceex.app
   name: "Clean Energy Exchange Status"
   introTitle: "Clean Energy Exchange — Service Status"
   introMessage: "Live availability of Clean Energy Exchange's public services. Watch this repository to be notified about incidents."
