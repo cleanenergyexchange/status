@@ -1,7 +1,7 @@
 url: https://api.prod.ceex.app/api/v1/health
 status: up
 code: 200
-responseTime: 747
-lastUpdated: 2026-08-07T23:12:38.717Z
+responseTime: 724
+lastUpdated: 2026-08-08T23:08:37.186Z
 startTime: 2026-05-20T15:06:02.393Z
 generator: Upptime <https://github.com/upptime/upptime>
